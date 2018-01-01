@@ -1,0 +1,42 @@
+﻿Build started 1/1/2018 20:45:19.
+     1>Project "D:\C++Projects\Nagumo\Nagumo\Nagumo.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Nagumo.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Nagumo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\c++projects\nagumo\nagumo\main.cpp(16): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(26): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(29): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(90): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(99): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(116): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(162): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+     1>d:\c++projects\nagumo\nagumo\main.cpp(169): warning C4244: 'argument' : conversion from 'double' to 'size_t', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Nagumo.exe.embed.manifest.res" Debug\Nagumo_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++Projects\Nagumo\Debug\Nagumo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Nagumo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++Projects\Nagumo\Debug\Nagumo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++Projects\Nagumo\Debug\Nagumo.lib" /MACHINE:X86 Debug\Nagumo.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         Deleting file "Debug\Nagumo.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Nagumo.exe.embed.manifest" /manifest Debug\Nagumo.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Nagumo.exe.embed.manifest.res" Debug\Nagumo_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++Projects\Nagumo\Debug\Nagumo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Nagumo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C++Projects\Nagumo\Debug\Nagumo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++Projects\Nagumo\Debug\Nagumo.lib" /MACHINE:X86 Debug\Nagumo.exe.embed.manifest.res
+         Debug\main.obj
+         Nagumo.vcxproj -> D:\C++Projects\Nagumo\Debug\Nagumo.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Nagumo.unsuccessfulbuild".
+         Touching "Debug\Nagumo.lastbuildstate".
+     1>Done Building Project "D:\C++Projects\Nagumo\Nagumo\Nagumo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
